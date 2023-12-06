@@ -1,0 +1,68 @@
+.flex {
+    display: flex;
+}
+
+.navBar {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navItems {
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+.pageTab {
+    border-radius: 25px;
+    height: 2rem;
+    width: 8rem;
+    background-color: rgb(27, 209, 215);
+    justify-content: center;
+    font-size: 24px;
+}
+
+.title {
+    justify-content: flex-start;
+    font-size: 36px;
+}
+
+body {
+    flex: auto;
+    background-image: url("https://particle.scitech.org.au/wp-content/uploads/2022/12/GettyImages-1203853320-scaled.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.InfoBox {
+    width: 42rem;
+    background-color: rgba(240, 122, 122, 0.456);
+    text-align: center;
+    color: black;
+}
+
+
+.center {
+    justify-content: center;
+}
+
+.large {
+    font-size: 64px;
+    margin-top: 1rem;
+}
+
+.flex > ul {
+    list-style-type: none;
+    font-size: 32px;
+}
+
+a:link {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+  }

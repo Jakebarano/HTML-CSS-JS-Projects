@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TodoLists</title>
+        <meta charset="UTF-8">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="flex header center">
+            <h2>My To Do List</h2>
+        </div>
+
+        <div class="flex center">
+            <input type="text" id = "newCat" placeholder="Category...">
+            <span onclick="addCategory()" class="addBtn">Add</span>
+        </div>
+
+        <div class="flex center">
+          <input type="text" id="myInput" placeholder="Task...">
+          <span onclick="newTask()" class="addBtn">Add</span>
+      </div>
+
+
+      <div class="flex center"> 
+      </div>
+
+      <ul id = "myCategories"class="flex col center">
+        <h3>TodoLists:</h3>
+            <!-- <ul id="General" class="flex col center">
+                <h3>General</h3>
+                <li><span class="close">×</span>Hit the gym</li>
+                <li class="checked">Pay bills<span class="close">×</span></li>
+                <li>Buy eggs<span class="close">×</span></li>
+                <li>Read a book<span class="close">×</span></li>
+            </ul> -->
+      </ul>
+
+    </body>
+
+  </html>

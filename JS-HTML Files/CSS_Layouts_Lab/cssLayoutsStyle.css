@@ -1,0 +1,50 @@
+
+.flex {
+    display: flex;
+}
+
+.box { 
+        height: 100px;
+        width: 100px;
+}
+
+.pink {
+        background-color: rgb(252, 211, 217);
+        border: solid black;
+}
+.orange { 
+    background-color: rgb(252, 230, 211);
+    border: solid black;
+}
+.purple { 
+    background-color: rgb(202, 140, 255);
+    border: solid black;
+}
+
+.green { 
+    background-color: rgb(201, 247, 179);
+    border: solid black;
+}
+
+.spaceEvenly {
+    justify-content: space-evenly;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    gap: 50px;
+}
+
+.flexEnd {
+    justify-content: flex-end;
+}
+
+.flexStart {
+    justify-content: flex-start;
+}
+
+.flexSB {
+    justify-content: space-evenly;
+}

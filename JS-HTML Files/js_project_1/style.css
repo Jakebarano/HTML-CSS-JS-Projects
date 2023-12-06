@@ -1,0 +1,102 @@
+.flex {
+    display: flex;
+}
+.center {
+    justify-content: center;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.addBtn {
+    padding: 15px;
+    width: 2rem;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+
+  .addBtn:hover {
+    background-color: #bbb;
+    
+  }
+  
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  } 
+
+  body {
+    font-family: Helvetica;
+    margin: 0;
+}
+
+
+  ul {
+    padding: 2rem;
+    background-color: #888;
+    list-style-type: none;
+  }
+
+  #myCategories {
+    background: #be2626;
+    color: rgb(255, 255, 255);
+  }
+
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #000000;
+    font-size: 18px;
+    color: #FFFFFF;
+    transition: 0.2s;
+
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+  
+
+ul li:hover {
+    background: #ddd;
+    color: #000000;
+  }
+
+  ul li.checked:hover {
+    background: #ddd;
+    color: #000000;
+  }
+
+  /* cross out item */
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+
+
+h3 {
+  margin-top: 0;
+}
+
+.highlighted {
+  background: blue;
+}
+
+h3 span.titleClose {
+  position: relative;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}

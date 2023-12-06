@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather API</title>
+        <meta charset="UTF-8">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="PageHeader" class="flex">
+            <div id="PageTitle" class="flex uncenteredColumn">
+                <h1 id="textTitle">Local Weather</h1>
+                <h5 id="subTitle">From The Open-Meteo Weather API</h5>
+            </div>
+
+            <div id="select-Menu" class="flex">
+
+                <select id="town-select" onchange="FetchAPI(this)">
+                    <option value = "burlington">Burlington</option>
+                    <option value="winooski">Winooski</option>
+                    <option value ="williston">Williston</option>
+                    <option value = "paris">Paris</option>
+                    <option value = "london">London</option>
+                    <option value = "tokyo">Tokyo</option>
+                    <option value = "LA">Los Angeles</option>
+                  </select>
+
+            </div>
+
+        </div>
+        <div class="flex column"> 
+            <div class="flex center widget">
+                <!--Info From Widget API-->
+                <div id="widgetOne" class="temperature"></div>
+                <div id="widgetOneImg"></div>
+            </div>
+            <div class="flex center widget">
+                <!--Info From Widget API-->
+                <div id="widgetTwo" class="temperature"></div>
+            </div>
+        </div>
+        
+        <div id="Notes">
+            <!--- NOTE: Two Different Dropdown Menu methods but I opted for the <select> element for ease of use
+
+                <div id="TownTxt" class="flex center">
+                    <input type="text" id = "newCat" placeholder="Burlington...">
+                </div>
+
+                <button onclick="showDropDownMenu()" class="dropbtn">Towns</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Burlington</a>
+                  <a href="#">Williston</a>
+                  <a href="#">Winooski</a>
+                </div>
+              </div>
+                -->
+        </div>
+         
+    </body>
+</html>

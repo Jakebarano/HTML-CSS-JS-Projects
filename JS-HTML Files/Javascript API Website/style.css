@@ -1,0 +1,143 @@
+.flex {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+}
+
+.widget {
+    height: 10em;
+    width: 10em;
+    margin: 1em;
+
+    border-style: solid;
+}
+.temperature {
+    font-size: 2em;
+    
+}
+
+body {
+    font-family: Helvetica;
+    margin: 0;
+}
+
+.spaceEvenly {
+    justify-content: space-evenly;
+}
+
+.column {
+    flex-direction: column;
+    align-items: center;
+}
+
+.uncenteredColumn {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Header Title and Dropdown Menu*/
+
+#PageHeader {
+    background-color: rgb(106, 173, 231);
+}
+
+#PageTitle {
+    padding-left: 1em;
+    width: 50%;
+}
+
+#select-Menu {
+    width: 50%;
+    justify-content: right;
+  }
+
+#textTitle {
+    margin-bottom: 0;
+}
+
+#subTitle {
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SELF MADE DROPDOWN (LESS EFFICIENT THAN <select>*/
+
+/* #TownTxt {
+    padding-right: 2px;
+} */
+
+/* #DropDown {
+    width: 50%;
+    justify-content: right;
+}
+
+.dropbtn {
+    background-color: rgb(219, 194, 52);
+    color: rgb(0, 0, 0);
+    padding: 2em;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  } */
+  
+
+  /* .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 82px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+ 
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  } */
+  
+
+  /* .dropdown-content a:hover {background-color: #ddd;}
+  
+
+  .show {display:block;} */

@@ -1,0 +1,69 @@
+.flex {
+    display: flex;
+}
+
+.navBar {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navItems {
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+.pageTab {
+    border-radius: 25px;
+    height: 2rem;
+    width: 8rem;
+    background-color: rgb(27, 209, 215);
+    justify-content: center;
+    font-size: 24px;
+}
+
+.title {
+    justify-content: flex-start;
+    font-size: 36px;
+}
+
+body {
+    flex: auto;
+    background-image: url("https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tfGVufDB8fDB8fHww&w=1000&q=80");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.center {
+    justify-content: center;
+}
+
+.highlightBox {
+    width: 30rem;
+    background-color: rgba(255, 255, 255, 0.456);
+    text-align: center;
+}
+
+.large {
+    font-size: 64px;
+    margin-top: 3rem;
+}
+
+.removeMargin {
+    margin: 0;
+}
+
+.addMargin {
+    margin-bottom: 16px;
+}
+
+a:link {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+  }

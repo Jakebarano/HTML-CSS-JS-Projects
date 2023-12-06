@@ -1,0 +1,106 @@
+
+
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+
+.HeaderInfo {
+    display: flex;
+}
+
+.header-child {
+    flex: 1;
+}
+
+.header-child > ul {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.header-child:first-child {
+    margin-right: 62.5%;
+    margin-left: 5%;
+}
+
+
+.FooterInfo {
+    display: flex;
+}
+
+.footer-child {
+    flex: 1;
+}
+
+.footer-child > ul {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.footer-child:first-child {
+    margin-left: 5%;
+}
+
+.section-header {
+    margin-left: 10%;
+}
+
+.skillList {
+    display: flex;
+}
+
+
+.skills-child {
+    flex: 1;
+}
+
+.skills-child > ul {
+    font-size: 16px;
+}
+.skills-child:first-child {
+    margin-right: 10%;
+    margin-left: 15%;
+}
+
+.subsection1 {
+    margin-left: 10%;
+    margin-bottom: -1%;
+}
+
+.subsection2-header {
+    display: flex;
+}
+.subsection2-child {
+    flex: 1;
+}
+
+.subsection2-child:first-child {
+    margin-right: 35%;
+    margin-left: 10%;
+}   
+
+.subsection2-list {
+    margin-left: 10%;
+}
+
+h4 {
+    margin-bottom: 0%;
+}
+
+.socials-logo {
+    height: 4rem;
+    width: 4rem;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
